@@ -32,6 +32,17 @@ const projects = [
     },
     href: "https://chainlist.org/",
   },
+  {
+    title: "LlamaFolio",
+    description:
+      "LlamaFolio is open and transparent wallet analytics tool and portfolio tracker. Coming soon.",
+    logo: {
+      src: "/assets/llamafolio.svg",
+      width: 220,
+      height: 60,
+    },
+    href: "https://llamafolio.com/",
+  }
 ];
 
 export default projects;
