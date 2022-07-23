@@ -6,11 +6,10 @@ export const useAnalytics = () => {
   const router = useRouter()
 
   useEffect(() => {
-    if (process.env.NODE_ENV === 'production') {
-      load('YEBFTNIF', {
-        includedDomains: ['llama-corp.com', 'www.llama-corp.com'],
-      })
-    }
+    
+    load('YEBFTNIF', {
+      includedDomains: ['llama-corp.com', 'www.llama-corp.com'],
+    })
 
     const onRouteChangeComplete = () => {
       trackPageview()
