@@ -1,8 +1,13 @@
 import Head from "next/head";
 import { ParallaxProvider } from "react-scroll-parallax";
 import "../styles/globals.css";
+import { useAnalytics } from '../hooks'
+
 
 function MyApp({ Component, pageProps }) {
+
+  useAnalytics()
+
   return (
     <>
       <Head>
