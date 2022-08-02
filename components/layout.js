@@ -41,7 +41,7 @@ export function PageWrapper({ seo, children }) {
               <h2>
                 Llama Corp is a collective building out the decentralized future
                 with data analytics, payments, cross-chain and media solutions
-                used by over 10M monthly users.
+                used by more than 10M monthly users.
               </h2>
             </div>
           </div>
