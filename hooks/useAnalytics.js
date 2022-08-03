@@ -9,6 +9,7 @@ export const useAnalytics = () => {
     if (process.env.NODE_ENV === 'production') {
       load('YEBFTNIF', {
         includedDomains: ['llama-corp.com', 'www.llama-corp.com'],
+        url: 'https://gold-six.llama.fi/script.js'
       })
     }
 
