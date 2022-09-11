@@ -8,7 +8,7 @@ const projects = [
       width: 240,
       height: 60,
     },
-    href: "https://defillama.com",
+    href: "https://defillama.com"
   },
   {
     title: "LlamaPay",
@@ -19,18 +19,18 @@ const projects = [
       width: 220,
       height: 60,
     },
-    href: "https://llamapay.io/",
+    href: "https://llamapay.io/"
   },
   {
-    title: "ChainList",
+    title: "LlamaNodes",
     description:
-      "Chainlist is a list of crypto networks and RPCs to facilitate the usage of EVM compatible blockchains.",
+      "LlamaNodes offers fast and secure access to the blockchain. Robust, private, and open-source: LlamaNodes does Web3 infrastructure the cryptoway.",
     logo: {
-      src: "/assets/chainlist.svg",
-      width: 200,
+      src: "/assets/llamanodes.svg",
+      width: 270,
       height: 60,
     },
-    href: "https://chainlist.org/",
+    href: "https://llamanodes.com/"
   },
   {
     title: "LlamaFolio",
@@ -41,8 +41,20 @@ const projects = [
       width: 220,
       height: 60,
     },
-    href: "https://llamafolio.com/",
-  }
+    href: "https://llamafolio.com/"
+  },
+  {
+    title: "ChainList",
+    description:
+      "Chainlist is a list of crypto networks and RPCs to facilitate the usage of EVM compatible blockchains.",
+    logo: {
+      src: "/assets/chainlist.svg",
+      width: 200,
+      height: 60,
+    },
+    href: "https://chainlist.org/"
+  },
+
 ];
 
 export default projects;
