@@ -184,7 +184,7 @@ const jobs = [
     title: "Business Dev Manager",
     project: "LlamaNodes",
     description:
-      "Generate revenue LlamaNodes and identify new business opportunities.",
+      "Generate revenue for LlamaNodes and identify new business opportunities.",
     content: `
       <section>
         <h1>Business Dev Manager</h1>
