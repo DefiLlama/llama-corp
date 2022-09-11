@@ -59,7 +59,6 @@ const jobs = [
           <li>You have strong initiative, if you identify something that could be improved you just go and improve it</li>
           <li>You want to stop wasting time on things like meetings and stuff that doesn't matter and instead prefer having full and un-interrupted control of your time</li>
           <li>You believe in what LlamaFolio is building</li>
-          <li>Ready to take on any role that's needed (we don't have classic separations like dev, product owner... everyone does everything. We personally find this very enjoyable, there's nothing like talking to users directly and seeing how they use what you built, then implementing features they request in a few hours).</li>
         </ul>
 
         <p>
@@ -150,7 +149,6 @@ const jobs = [
           <li>You have strong initiative, if you identify something that could be improved you just go and improve it</li>
           <li>You want to stop wasting time on things like meetings and stuff that doesn't matter and instead prefer having full and un-interrupted control of your time</li>
           <li>You believe in what LlamaNodes is building</li>
-          <li>Ready to take on any role that's needed (we don't have classic separations like dev, product owner... everyone does everything. We personally find this very enjoyable, there's nothing like talking to users directly and seeing how they use what you built, then implementing features they request in a few hours).</li>
         </ul>
 
         <p>
@@ -167,7 +165,6 @@ const jobs = [
         <h3>Employee benefits</h3>
 
         <ul>
-          <li>Performance based bonuses</li>
           <li>Equity packages</li>
           <li>Fully remote positions</li>
         </ul>
@@ -238,7 +235,6 @@ const jobs = [
           <li>You have strong initiative, if you identify something that could be improved you just go and improve it</li>
           <li>You want to stop wasting time on things like meetings and stuff that doesn't matter and instead prefer having full and un-interrupted control of your time</li>
           <li>You believe in what LlamaNodes is building</li>
-          <li>Ready to take on any role that's needed (we don't have classic separations like dev, product owner... everyone does everything. We personally find this very enjoyable, there's nothing like talking to users directly and seeing how they use what you built, then implementing features they request in a few hours).</li>
         </ul>
 
         <p>
