@@ -2,7 +2,7 @@ const projects = [
   {
     title: "DeFiLlama",
     description:
-      "DeFiLlama is the leading solution for decentralized finance data, used by the largest financial instutions in the world.",
+      "DeFiLlama is the leading solution for decentralized finance data, used by the largest financial institutions in the world.",
     logo: {
       src: "/assets/defillama.svg",
       width: 240,
@@ -35,7 +35,7 @@ const projects = [
   {
     title: "LlamaFolio",
     description:
-      "LlamaFolio is open and transparent wallet analytics tool and portfolio tracker. Coming soon.",
+      "LlamaFolio is an open and transparent wallet analytics tool and portfolio tracker. Coming soon.",
     logo: {
       src: "/assets/llamafolio.svg",
       width: 220,
