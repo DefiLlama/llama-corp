@@ -30,7 +30,7 @@ const projects = [
       width: 270,
       height: 60,
     },
-    href: "https://llamanodes.com/"
+    href: "https://twitter.com/LlamaNodes"
   },
   {
     title: "LlamaFolio",
