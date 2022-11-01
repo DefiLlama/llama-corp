@@ -13,7 +13,7 @@ const projects = [
   {
     title: "LlamaNodes",
     description:
-      "LlamaNodes offers fast and secure access to the blockchain. Robust, private, and open-source: LlamaNodes does Web3 infrastructure the cryptoway.",
+      "LlamaNodes offers fast and secure access to the blockchain. Robust, private, and open-source: LlamaNodes does Web3 infrastructure the crypto way.",
     logo: {
       src: "/assets/llamanodes.svg",
       width: 270,
