@@ -19,7 +19,7 @@ const projects = [
       width: 270,
       height: 60,
     },
-    href: "https://twitter.com/LlamaNodes"
+    href: "https://llamanodes.com"
   },
   {
     title: "DLNews",
