@@ -72,6 +72,8 @@ function Card({ name, role, img, twitter, github, telegram, projects }) {
           height: 200px;
           border-radius: 12px;
           overflow: hidden;
+          border-radius: 50%;
+
         }
 
         .name {
