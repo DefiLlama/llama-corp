@@ -44,19 +44,6 @@ const projects = [
     },
     href: "https://dlnews.com",
   },
-  // {
-  //   id: PROJECT_ID.llamaPay,
-  //   title: "LlamaPay",
-  //   description:
-  //     "LlamaPay is a non-custodial solution to automate recurring payments like salaries for crypto companies.",
-  //   logo: {
-  //     src: "/assets/llamapay.svg",
-  //     width: 220,
-  //     height: 60,
-  //   },
-  //   href: "https://llamapay.io/"
-  // },
-
   {
     id: PROJECT_ID.llamaFolio,
     title: "LlamaFolio",
@@ -81,6 +68,19 @@ const projects = [
     },
     href: "https://chainlist.org/",
   },
+  {
+    id: PROJECT_ID.llamaPay,
+    title: "LlamaPay",
+    description:
+      "LlamaPay is a non-custodial solution to automate recurring payments like salaries for crypto companies.",
+    logo: {
+      src: "/assets/llamapay.svg",
+      width: 220,
+      height: 60,
+    },
+    href: "https://llamapay.io/"
+  },
+
 ];
 
 export const projectById = {};
