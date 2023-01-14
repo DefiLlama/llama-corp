@@ -1,8 +1,10 @@
 import React from "react";
 import Projects from "../components/projects";
 import Careers from "../components/careers";
+import Team from "../components/team";
 import projects from "../data/projects";
 import careers from "../data/careers";
+import team from "../data/team";
 import { PageWrapper } from "../components/layout";
 
 export default function HomePage() {
@@ -20,6 +22,14 @@ export default function HomePage() {
             <h3>Careers</h3>
 
             <Careers items={careers} />
+          </section>
+        )}
+
+        {team.length > 0 && (
+          <section>
+            <h3>Team</h3>
+
+            <Team items={team} />
           </section>
         )}
       </PageWrapper>

@@ -1,5 +1,15 @@
+export const PROJECT_ID = {
+  defiLlama: "DefiLlama",
+  llamaNodes: "LlamaNodes",
+  dlNews: "DLNews",
+  llamaPay: "LlamaPay",
+  llamaFolio: "LlamaFolio",
+  chainList: "ChainList",
+};
+
 const projects = [
   {
+    id: PROJECT_ID.defiLlama,
     title: "DeFiLlama",
     description:
       "DeFiLlama is the leading solution for decentralized finance data, used by the largest financial institutions in the world.",
@@ -8,9 +18,10 @@ const projects = [
       width: 240,
       height: 60,
     },
-    href: "https://defillama.com"
+    href: "https://defillama.com",
   },
   {
+    id: PROJECT_ID.llamaNodes,
     title: "LlamaNodes",
     description:
       "LlamaNodes offers fast and secure access to the blockchain. Robust, private, and open-source: LlamaNodes does Web3 infrastructure the crypto way.",
@@ -19,9 +30,10 @@ const projects = [
       width: 270,
       height: 60,
     },
-    href: "https://llamanodes.com"
+    href: "https://llamanodes.com",
   },
   {
+    id: PROJECT_ID.dlNews,
     title: "DLNews",
     description:
       "DLNews is a news organisation that provides original, in-depth reporting on cryptocurrency and decentralised finance.",
@@ -30,21 +42,10 @@ const projects = [
       width: 270,
       height: 60,
     },
-    href: "https://dlnews.com"
+    href: "https://dlnews.com",
   },
-  // {
-  //   title: "LlamaPay",
-  //   description:
-  //     "LlamaPay is a non-custodial solution to automate recurring payments like salaries for crypto companies.",
-  //   logo: {
-  //     src: "/assets/llamapay.svg",
-  //     width: 220,
-  //     height: 60,
-  //   },
-  //   href: "https://llamapay.io/"
-  // },
-
   {
+    id: PROJECT_ID.llamaFolio,
     title: "LlamaFolio",
     description:
       "LlamaFolio is an open and transparent wallet analytics tool and portfolio tracker. Coming soon.",
@@ -53,9 +54,10 @@ const projects = [
       width: 220,
       height: 60,
     },
-    href: "https://llamafolio.com/"
+    href: "https://llamafolio.com/",
   },
   {
+    id: PROJECT_ID.chainList,
     title: "ChainList",
     description:
       "Chainlist is a list of crypto networks and RPCs to facilitate the usage of EVM compatible blockchains.",
@@ -64,9 +66,26 @@ const projects = [
       width: 200,
       height: 60,
     },
-    href: "https://chainlist.org/"
+    href: "https://chainlist.org/",
+  },
+  {
+    id: PROJECT_ID.llamaPay,
+    title: "LlamaPay",
+    description:
+      "LlamaPay is a non-custodial solution to automate recurring payments like salaries for crypto companies.",
+    logo: {
+      src: "/assets/llamapay.svg",
+      width: 220,
+      height: 60,
+    },
+    href: "https://llamapay.io/"
   },
 
 ];
+
+export const projectById = {};
+for (const project of projects) {
+  projectById[project.id] = project;
+}
 
 export default projects;
