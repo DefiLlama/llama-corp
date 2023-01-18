@@ -11,14 +11,14 @@ export default function HomePage() {
   return (
     <>
       <PageWrapper>
-        <section>
+        <section id="projects">
           <h3 className="project-title">Projects</h3>
 
           <Projects items={projects} />
         </section>
 
         {careers.length > 0 && (
-          <section>
+          <section id="careers">
             <h3>Careers</h3>
 
             <Careers items={careers} />
@@ -26,7 +26,7 @@ export default function HomePage() {
         )}
 
         {team.length > 0 && (
-          <section>
+          <section id="team">
             <h3>Team</h3>
 
             <Team items={team} />
