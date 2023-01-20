@@ -19,16 +19,21 @@ const team = [
     twitter: "https://twitter.com/0xLlam4",
     github: "https://github.com/charlie-eth",
     telegram: "https://t.me/0xLlam4",
-    projects: [PROJECT_ID.defiLlama, PROJECT_ID.llamaFolio, PROJECT_ID.llamaNodes, PROJECT_ID.dlNews],
+    projects: [
+      PROJECT_ID.defiLlama,
+      PROJECT_ID.llamaFolio,
+      PROJECT_ID.llamaNodes,
+      PROJECT_ID.dlNews,
+    ],
   },
   {
     id: "vrotend",
     name: "vrotend",
     role: "Dev",
     img: "/assets/team/vrotend.jpg",
-    twitter: "https://twitter.com/0xsign",
-    github: "https://github.com/0xsign",
-    telegram: "https://t.me/Oxsign",
+    twitter: "https://twitter.com/basedcoiner",
+    github: "https://github.com/vrtnd",
+    telegram: "https://t.me/vrotendd",
     projects: [PROJECT_ID.defiLlama],
   },
   {
@@ -147,6 +152,5 @@ const team = [
     projects: [PROJECT_ID.llamaNodes],
   },
 ];
-
 
 export default team;
