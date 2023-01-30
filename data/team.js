@@ -148,6 +148,7 @@ const team = [
     name: "Ono",
     role: "LlamaNodes BD",
     img: "/assets/team/ono.jpg",
+    twitter: "https://twitter.com/0x_ono",
     telegram: "https://t.me/Ono2024",
     projects: [PROJECT_ID.llamaNodes],
   },
