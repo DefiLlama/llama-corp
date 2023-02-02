@@ -1,12 +1,12 @@
 const jobs = [
   {
-    slug: "llamafolio-full-stack-dev",
-    title: "Full stack Dev",
+    slug: "llamafolio-backend-dev",
+    title: "Backend Dev",
     project: "LlamaFolio",
-    description: "Build end-to-end features for LlamaFolio.",
+    description: "Build backend features for LlamaFolio.",
     content: `
           <section>
-            <h1>Full stack Developer</h1>
+            <h1>Backend Developer</h1>
             <p>
               Build a transparent and open source DeFi portfolio dashboard. Salary ~$50k per year and up based on experience.
             </p>
@@ -17,11 +17,9 @@ const jobs = [
             <p>
               Stack:
               <ul>
-                <li>React</li>
-                <li>NextJS</li>
-                <li>Serverless/AWS</li>
-                <li>NodeJS</li>
-                <li>ethers js</li>
+                <li>NodeJS / Typescript</li>
+                <li>Serverless Framework / AWS</li>
+                <li>Postgres</li>
                 <li>Nice to have: experience building dApps</li>
               </ul>
             </p>
