@@ -8,7 +8,7 @@ const jobs = [
           <section>
             <h1>Backend Developer</h1>
             <p>
-              Build a transparent and open source DeFi portfolio dashboard. Salary ~$50k per year and up based on experience.
+              Build a transparent and open source DeFi portfolio dashboard.
             </p>
             <p>
             Portfolio trackers should be open and transparent with data policy that respects users.
@@ -61,7 +61,7 @@ const jobs = [
           <section>
             <h3>Employee benefits</h3>
             <ul>
-              <li>Equity packages</li>
+              <li>Competitive compensation and equity based on your experience</li>
               <li>Fully remote positions</li>
             </ul>
           </section>
