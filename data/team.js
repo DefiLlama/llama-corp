@@ -95,7 +95,7 @@ const team = [
     img: "/assets/team/breno.jpg",
     twitter: "https://twitter.com/brenopolanski",
     github: "https://github.com/brenopolanski",
-    telegram: "https://t.me/eaberrueta",
+    telegram: "https://t.me/brenopolanski",
     projects: [PROJECT_ID.llamaFolio, PROJECT_ID.llamaNodes],
   },
   {
@@ -105,6 +105,7 @@ const team = [
     img: "/assets/team/kike.jpg",
     twitter: "https://twitter.com/eaberrueta",
     github: "https://github.com/eabz",
+    telegram: "https://t.me/eaberrueta",
     projects: [PROJECT_ID.llamaFolio, PROJECT_ID.llamaNodes],
   },
   {
