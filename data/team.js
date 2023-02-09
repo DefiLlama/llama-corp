@@ -152,6 +152,47 @@ const team = [
     telegram: "https://t.me/Ono2024",
     projects: [PROJECT_ID.llamaNodes],
   },
+  {
+    id: "ana",
+    name: "Ana Ćurić",
+    role: "Investigative Journalism & Researcher",
+    img: "/assets/team/ana.jpg",
+    twitter: "https://twitter.com/curic_anna",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "ritvik",
+    name: "Ritvik Carvalho",
+    role: "Crypto & Data Correspondent",
+    img: "/assets/team/ritvik.jpg",
+    twitter: "https://twitter.com/@ritvikcarvalho",
+    telegram: "https://t.me/@ritivikcarvalho",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "bertrand",
+    name: "Bertrand Mossiat",
+    role: "Head of Sales",
+    img: "/assets/team/bertrand.jpg",
+    twitter: "https://twitter.com/@bertrandmossiat",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "ekin",
+    name: "Ekin Genç",
+    role: "Managing Editor",
+    img: "/assets/team/ekin.jpg",
+    twitter: "https://twitter.com/@eking0x",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "isabel",
+    name: "Isabel Hunter",
+    role: "Head of Investigations",
+    img: "/assets/team/isabel.jpg",
+    twitter: "https://twitter.com/@eking0x",
+    projects: [PROJECT_ID.dlNews],
+  },
 ];
 
 export default team;
