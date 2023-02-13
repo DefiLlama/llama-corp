@@ -257,6 +257,23 @@ const team = [
     telegram: "https://t.me/sloduarte",
     projects: [PROJECT_ID.dlNews],
   },
+  {
+    id: "tim",
+    name: "Tim",
+    role: "DeFi Correspondent",
+    img: "/assets/team/tim.jpg",
+    twitter: "https://twitter.com/TimInCrypto",
+    telegram: "https://t.me/TimInCrypto",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "ty",
+    name: "Ty",
+    role: "Curriculum Developer",
+    img: "/assets/team/ty.jpg",
+    twitter: "https://twitter.com/TyRPearson",
+    projects: [PROJECT_ID.dlNews],
+  },
 ];
 
 export default team;
