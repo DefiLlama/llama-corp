@@ -60,7 +60,7 @@ const team = [
   },
   {
     id: "paige",
-    name: "Paige Aarhus",
+    name: "Paige",
     role: "Director",
     img: "/assets/team/paige.jpg",
     twitter: "https://twitter.com/@paigeaarhus",
@@ -69,7 +69,7 @@ const team = [
   },
   {
     id: "rey",
-    name: "Rey Tuplano",
+    name: "Rey",
     role: "Managing Director",
     img: "/assets/team/rey.jpg",
     twitter: "https://twitter.com/@rtuplano",
@@ -78,7 +78,7 @@ const team = [
   },
   {
     id: "roosa",
-    name: "Roosa Kivistö",
+    name: "Roosa",
     role: "Head of Strategy",
     img: "/assets/team/roosa.jpg",
     telegram: "https://t.me/rooooooosa",
@@ -193,7 +193,7 @@ const team = [
   },
   {
     id: "ana",
-    name: "Ana Ćurić",
+    name: "Ana",
     role: "Investigative Journalism & Researcher",
     img: "/assets/team/ana.jpg",
     twitter: "https://twitter.com/curic_anna",
@@ -201,7 +201,7 @@ const team = [
   },
   {
     id: "ritvik",
-    name: "Ritvik Carvalho",
+    name: "Ritvik",
     role: "Crypto & Data Correspondent",
     img: "/assets/team/ritvik.jpg",
     twitter: "https://twitter.com/@ritvikcarvalho",
@@ -210,7 +210,7 @@ const team = [
   },
   {
     id: "bertrand",
-    name: "Bertrand Mossiat",
+    name: "Bertrand",
     role: "Head of Sales",
     img: "/assets/team/bertrand.jpg",
     twitter: "https://twitter.com/@bertrandmossiat",
@@ -218,7 +218,7 @@ const team = [
   },
   {
     id: "ekin",
-    name: "Ekin Genç",
+    name: "Ekin",
     role: "Managing Editor",
     img: "/assets/team/ekin.jpg",
     twitter: "https://twitter.com/@eking0x",
@@ -226,7 +226,7 @@ const team = [
   },
   {
     id: "isabel",
-    name: "Isabel Hunter",
+    name: "Isabel",
     role: "Head of Investigations",
     img: "/assets/team/isabel.jpg",
     twitter: "https://twitter.com/isabelhunter",
@@ -235,7 +235,7 @@ const team = [
   },
   {
     id: "kelly",
-    name: "Kelly Moreira",
+    name: "Kelly",
     role: "Head of Product & Technology",
     img: "/assets/team/kelly.jpg",
     twitter: "https://twitter.com/@ke_moreira",
@@ -243,14 +243,14 @@ const team = [
   },
   {
     id: "robert",
-    name: "Robert Holloway",
+    name: "Robert",
     role: "Ombuddsman",
     img: "/assets/team/robert.jpg",
     projects: [PROJECT_ID.dlNews],
   },
   {
     id: "silvia",
-    name: "Silvia Duarte",
+    name: "Silvia",
     role: "Head of People Operations",
     img: "/assets/team/silvia.jpg",
     twitter: "https://twitter.com/sloduarte",
