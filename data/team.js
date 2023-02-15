@@ -271,6 +271,13 @@ const team = [
     projects: [PROJECT_ID.dlNews],
   },
   {
+    id: "nemusona",
+    name: "nemusona",
+    role: "Dev",
+    img: "/assets/team/nemu.jpg",
+    twitter: "https://twitter.com/nemusonaUwU",
+    projects: [PROJECT_ID.defiLlama, PROJECT_ID.llamaPay],
+   }, 
     id: "0xgnek",
     name: "0xgnek",
     role: "Dev",
