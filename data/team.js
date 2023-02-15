@@ -277,6 +277,15 @@ const team = [
     img: "/assets/team/nemu.jpg",
     twitter: "https://twitter.com/nemusonaUwU",
     projects: [PROJECT_ID.defiLlama, PROJECT_ID.llamaPay],
+   }, 
+    id: "0xgnek",
+    name: "0xgnek",
+    role: "Dev",
+    img: "/assets/team/0xgnek.jpg",
+    twitter: "https://twitter.com/0xgnek",
+    github: "https://github.com/dtmkeng",
+    telegram: "https://t.me/Oxgnek",
+    projects: [PROJECT_ID.defiLlama],
   },
 ];
 
