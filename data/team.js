@@ -32,11 +32,7 @@ const team = [
     role: "Co-founder",
     img: "/assets/team/ben.jpg",
     github: "https://github.com/iamdefinitelyahuman",
-    projects: [
-      PROJECT_ID.llamaFolio,
-      PROJECT_ID.llamaNodes,
-      PROJECT_ID.dlNews,
-    ],
+    projects: [PROJECT_ID.llamaFolio, PROJECT_ID.llamaNodes, PROJECT_ID.dlNews],
   },
   {
     id: "vrotend",
@@ -273,6 +269,16 @@ const team = [
     img: "/assets/team/ty.jpg",
     twitter: "https://twitter.com/TyRPearson",
     projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "0xgnek",
+    name: "0xgnek",
+    role: "Dev",
+    img: "/assets/team/0xgnek.jpg",
+    twitter: "https://twitter.com/0xgnek",
+    github: "https://github.com/dtmkeng",
+    telegram: "https://t.me/Oxgnek",
+    projects: [PROJECT_ID.defiLlama],
   },
 ];
 
