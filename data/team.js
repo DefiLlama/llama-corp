@@ -110,9 +110,9 @@ const team = [
     role: "Dev",
     img: "/assets/team/nemu.jpg",
     twitter: "https://twitter.com/nemusonaUwU",
-    projects: [PROJECT_ID.defiLlama, PROJECT_ID.llamaPay]
-   },
-   {
+    projects: [PROJECT_ID.defiLlama, PROJECT_ID.llamaPay],
+  },
+  {
     id: "0xgnek",
     name: "0xgnek",
     role: "Dev",
@@ -120,7 +120,7 @@ const team = [
     twitter: "https://twitter.com/0xgnek",
     github: "https://github.com/dtmkeng",
     telegram: "https://t.me/Oxgnek",
-    projects: [PROJECT_ID.defiLlama]
+    projects: [PROJECT_ID.defiLlama],
   },
   {
     id: "vomics",
@@ -288,7 +288,14 @@ const team = [
     twitter: "https://twitter.com/TyRPearson",
     projects: [PROJECT_ID.dlNews],
   },
-
+  {
+    id: "mintdart",
+    name: "mintdart",
+    role: "Dev",
+    img: "/assets/team/mintdart.jpg",
+    twitter: "https://twitter.com/mintdart",
+    projects: [PROJECT_ID.defiLlama, PROJECT_ID.llamaPay],
+  },
 ];
 
 export default team;
