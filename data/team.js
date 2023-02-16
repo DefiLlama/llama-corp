@@ -296,6 +296,24 @@ const team = [
     twitter: "https://twitter.com/mintdart",
     projects: [PROJECT_ID.defiLlama, PROJECT_ID.llamaPay],
   },
+  {
+    id: "llamaintern",
+    name: "LlamaIntern",
+    role: "Intern",
+    img: "/assets/team/llamaintern.jpg",
+    twitter: "https://twitter.com/llamaintern",
+    telegram: "https://t.me/llamaintern",
+    projects: [PROJECT_ID.defiLlama],
+  },
+  {
+    id: "bentura",
+    name: "bentura",
+    role: "Intern",
+    img: "/assets/team/bentura.jpg",
+    twitter: "https://twitter.com/Define101",
+    telegram: "https://t.me/definegostoso",
+    projects: [PROJECT_ID.defiLlama],
+  },
 ];
 
 export default team;
