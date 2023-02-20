@@ -142,7 +142,7 @@ const team = [
   },
   {
     id: "breno",
-    name: "Breno Polanski",
+    name: "Breno",
     role: "Dev",
     img: "/assets/team/breno.jpg",
     twitter: "https://twitter.com/brenopolanski",
@@ -181,7 +181,7 @@ const team = [
   },
   {
     id: "michael",
-    name: "Michael Burgess",
+    name: "Michael",
     role: "LLamaNodes COO",
     img: "/assets/team/michael.jpg",
     twitter: "https://twitter.com/m__burgess",
