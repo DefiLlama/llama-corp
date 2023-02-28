@@ -223,14 +223,6 @@ const team = [
     projects: [PROJECT_ID.dlNews],
   },
   {
-    id: "bertrand",
-    name: "Bertrand",
-    role: "Head of Sales",
-    img: "/assets/team/bertrand.jpg",
-    twitter: "https://twitter.com/@bertrandmossiat",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
     id: "ekin",
     name: "Ekin",
     role: "Managing Editor",
