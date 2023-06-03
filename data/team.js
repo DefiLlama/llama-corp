@@ -250,7 +250,7 @@ const team = [
   {
     id: "robert",
     name: "Robert",
-    role: "Ombuddsman",
+    role: "Ombudsman",
     img: "/assets/team/robert.jpg",
     projects: [PROJECT_ID.dlNews],
   },
