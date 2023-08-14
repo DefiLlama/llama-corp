@@ -89,6 +89,14 @@ const team = [
     projects: [PROJECT_ID.defiLlama],
   },
   {
+    id: "ulysses",
+    name: "Ulysses",
+    role: "Dev",
+    img: "/assets/team/ulysses.png",
+    twitter: "https://twitter.com/Daneel_Olivaw_R",
+    projects: [PROJECT_ID.defiLlama],
+  },
+  {
     id: "strobie",
     name: "Strobie",
     role: "Dev",
