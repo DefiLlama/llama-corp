@@ -48,7 +48,7 @@ const projects = [
     id: PROJECT_ID.llamaFolio,
     title: "LlamaFolio",
     description:
-      "LlamaFolio is an open and transparent wallet analytics tool and portfolio tracker. Coming soon.",
+      "LlamaFolio is an open and transparent wallet analytics tool and portfolio tracker.",
     logo: {
       src: "/assets/llamafolio.svg",
       width: 220,
