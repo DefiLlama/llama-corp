@@ -424,6 +424,7 @@ const team = [
     name: "Darren",
     role: "Graphic Designer",
     img: "/assets/team/darren.jpeg",
+    twitter: "https://x.com/designsby_dj",
     projects: [PROJECT_ID.dlNews],
   },
   {
