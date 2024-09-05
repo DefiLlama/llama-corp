@@ -2,6 +2,7 @@ export const PROJECT_ID = {
   defiLlama: "DefiLlama",
   llamaNodes: "LlamaNodes",
   dlNews: "DLNews",
+  dlResearch: "DLResearch",
   llamaPay: "LlamaPay",
   llamaFolio: "LlamaFolio",
   chainList: "ChainList",
@@ -43,6 +44,18 @@ const projects = [
       height: 60,
     },
     href: "https://dlnews.com",
+  },
+  {
+    id: PROJECT_ID.dlResearch,
+    title: "DLResearch",
+    description:
+      "DL Research provides in-depth research reports, intelligence and custom content to take your brand to the next level.",
+    logo: {
+      src: "/assets/dlresearch.svg",
+      width: 270,
+      height: 60,
+    },
+    href: "https://dlnews.com/research",
   },
   {
     id: PROJECT_ID.llamaFolio,
