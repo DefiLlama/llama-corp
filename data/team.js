@@ -86,14 +86,6 @@ const team = [
     ],
   },
   {
-    id: "yana",
-    name: "Yana",
-    role: "Head of Business Development",
-    img: "/assets/team/yana.jpeg",
-    telegram: "https://t.me/yanadenk",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
     id: "ben",
     name: "Ben",
     role: "Co-founder",
@@ -108,7 +100,7 @@ const team = [
     img: "/assets/team/paige.jpg",
     twitter: "https://x.com/paigeaarhus",
     telegram: "https://t.me/paaaaaaaige",
-    projects: [PROJECT_ID.dlNews],
+    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
   },
   {
     id: "roosa",
@@ -116,7 +108,7 @@ const team = [
     role: "Managing Director",
     img: "/assets/team/roosa.jpg",
     telegram: "https://t.me/rooooooosa",
-    projects: [PROJECT_ID.dlNews],
+    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
   },
   {
     id: "trista",
@@ -125,6 +117,14 @@ const team = [
     img: "/assets/team/trista.jpg",
     twitter: "https://x.com/trista_kelley",
     projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "yana",
+    name: "Yana",
+    role: "Head of Business Development",
+    img: "/assets/team/yana.jpeg",
+    telegram: "https://t.me/yanadenk",
+    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
   },
   {
     id: "vrotend",
@@ -417,7 +417,7 @@ const team = [
     role: "Senior Analyst",
     img: "/assets/team/ryan-celaj.jpeg",
     twitter: "https://x.com/rcel1559",
-    projects: [PROJECT_ID.dlNews],
+    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
   },
   {
     id: "darren",
@@ -442,7 +442,7 @@ const team = [
     img: "/assets/team/joachim.jpg",
     twitter: "https://x.com/Joooooeb",
     telegram: "https://t.me/Joooooeb",
-    projects: [PROJECT_ID.dlNews],
+    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
   },
   {
     id: "jormpt",
@@ -450,7 +450,7 @@ const team = [
     role: "Research Analyst",
     img: "/assets/team/jormpt.jpg",
     twitter: "https://x.com/jormpt",
-    projects: [PROJECT_ID.dlNews],
+    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
   },
 ];
 
