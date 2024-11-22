@@ -450,6 +450,7 @@ const team = [
     role: "Research Analyst",
     img: "/assets/team/jormpt.jpg",
     twitter: "https://x.com/jormpt",
+    telegram: "https://t.me/jormpt",
     projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
   },
 ];
