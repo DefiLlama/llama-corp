@@ -12,6 +12,7 @@ yarn dev
 
 - To update job openings, use `/data/careers.js`
 - To update projects, use `/data/projects.js`
+- To update team, use `/data/team.js`
 
 and deploy the project
 

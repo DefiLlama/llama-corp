@@ -1,64 +1,5 @@
 import { PROJECT_ID } from "./projects";
 
-const old_team = [
-  {
-    id: "rey",
-    name: "Rey",
-    role: "Head of Revenue",
-    img: "/assets/team/rey.jpg",
-    twitter: "https://x.com/rtuplano",
-    telegram: "https://t.me/reydavis",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "adam",
-    name: "Adam",
-    role: "Markets Correspondent",
-    img: "/assets/team/adam.jpg",
-    twitter: "https://x.com/AdMcMarkets",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "ana",
-    name: "Ana",
-    role: "Data Journalist",
-    img: "/assets/team/ana.jpg",
-    twitter: "https://x.com/curic_anna",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "ty",
-    name: "Ty",
-    role: "Junior Markets Correspondent",
-    img: "/assets/team/ty.jpg",
-    twitter: "https://x.com/TyRPearson",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "inbar",
-    name: "Inbar",
-    role: "Regulation Correspondent",
-    img: "/assets/team/inbar.jpg",
-    twitter: "https://x.com/InbarPreiss",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "callan",
-    name: "Callan",
-    role: "Asia Correspondent",
-    img: "/assets/team/callan.jpg",
-    twitter: "https://x.com/Quinnishvili",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "mike",
-    name: "Mike",
-    role: "Weekend Editor",
-    img: "/assets/team/mike.jpg",
-    projects: [PROJECT_ID.dlNews],
-  },
-]
-
 const team = [
   {
     id: "0xngmi",
@@ -189,16 +130,6 @@ const team = [
     projects: [PROJECT_ID.defiLlama],
   },
   {
-    id: "0xsign",
-    name: "0xsign",
-    role: "Tech lead",
-    img: "/assets/team/0xsign.jpg",
-    twitter: "https://x.com/0xsign",
-    github: "https://github.com/0xsign",
-    telegram: "https://t.me/Oxsign",
-    projects: [PROJECT_ID.llamaFolio, PROJECT_ID.llamaNodes, PROJECT_ID.dlNews],
-  },
-  {
     id: "breno",
     name: "Breno",
     role: "Dev",
@@ -259,13 +190,6 @@ const team = [
     role: "Managing Editor",
     img: "/assets/team/ekin.jpg",
     twitter: "https://x.com/eking0x",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "robert",
-    name: "Robert",
-    role: "Ombudsman",
-    img: "/assets/team/robert.jpg",
     projects: [PROJECT_ID.dlNews],
   },
   {
@@ -380,14 +304,6 @@ const team = [
     projects: [PROJECT_ID.dlNews],
   },
   {
-    id: "tom",
-    name: "Tom",
-    role: "Markets Correspondent",
-    img: "/assets/team/tom.jpg",
-    twitter: "https://x.com/tom_carreras",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
     id: "liam",
     name: "Liam",
     role: "DeFi Correspondent",
@@ -414,18 +330,10 @@ const team = [
   {
     id: "ryan",
     name: "Ryan",
-    role: "Senior Analyst",
+    role: "Head of Research",
     img: "/assets/team/ryan-celaj.jpeg",
     twitter: "https://x.com/rcel1559",
     projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
-  },
-  {
-    id: "darren",
-    name: "Darren",
-    role: "Graphic Designer",
-    img: "/assets/team/darren.jpeg",
-    twitter: "https://x.com/designsby_dj",
-    projects: [PROJECT_ID.dlNews],
   },
   {
     id: "ben-weiss",
@@ -436,15 +344,6 @@ const team = [
     projects: [PROJECT_ID.dlNews],
   },
   {
-    id: "joachim",
-    name: "Joachim",
-    role: "Head of Client Relations",
-    img: "/assets/team/joachim.jpg",
-    twitter: "https://x.com/Joooooeb",
-    telegram: "https://t.me/Joooooeb",
-    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
-  },
-  {
     id: "jormpt",
     name: "Jormpt",
     role: "Research Analyst",
@@ -452,6 +351,21 @@ const team = [
     twitter: "https://x.com/jormpt",
     telegram: "https://t.me/jormpt",
     projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
+  },
+  {
+    id: "larry",
+    name: "Larry",
+    role: "US Editor",
+    img: "/assets/team/larry.jpg",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "kyle",
+    name: "Kyle",
+    role: "Weekend Editor",
+    img: "/assets/team/kyle.jpg",
+    twitter: "https://x.com/CryptoBizzle",
+    projects: [PROJECT_ID.dlNews],
   },
 ];
 
