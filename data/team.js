@@ -130,16 +130,6 @@ const team = [
     projects: [PROJECT_ID.defiLlama],
   },
   {
-    id: "breno",
-    name: "Breno",
-    role: "Dev",
-    img: "/assets/team/breno.jpg",
-    twitter: "https://x.com/brenopolanski",
-    github: "https://github.com/brenopolanski",
-    telegram: "https://t.me/brenopolanski",
-    projects: [PROJECT_ID.llamaFolio, PROJECT_ID.llamaNodes],
-  },
-  {
     id: "peluche",
     name: "0xPeluche",
     role: "Dev",
