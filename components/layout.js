@@ -34,11 +34,11 @@ export function PageWrapper({ seo, children }) {
                 </a>
               </Link>
 
-              <h1>
+              <h1 className="my-8 text-3xl font-bold xl:text-4xl" >
                 Open and transparent solutions for the decentralized world
               </h1>
 
-              <h2>
+              <h2 className="font-semibold xl:text-xl" >
                 Llama Corp is a collective building out the decentralized future
                 with data analytics, payments, cross-chain and media solutions
                 used by more than 10M monthly users.
@@ -49,7 +49,7 @@ export function PageWrapper({ seo, children }) {
           {children}
 
           <section>
-            <h3>Contact</h3>
+            <h3 className="text-[1.5rem] my-6" >Contact</h3>
 
             <Contact />
           </section>

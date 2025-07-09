@@ -29,9 +29,10 @@ function Card({ name, role, img, twitter, github, telegram, projects }) {
 
   return (
     <>
-      <div className="container">
-        <div className="img-container">
-          <Image alt={name} src={img} layout="fill" objectFit="cover" />
+    
+      <div className="container ">
+        <div className="img-container ">
+          <Image alt={name} src={img} layout="fill"  objectFit="contain" />
         </div>
 
         <div className="col">
@@ -159,6 +160,7 @@ export default function Team({ items }) {
 
   return (
     <>
+    <h3 className="mb-5 text-[1.5rem]" >Team</h3>
       <div className="row">
         {projects.map(({ id, title }) => (
           <div
