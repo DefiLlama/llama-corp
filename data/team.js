@@ -115,24 +115,6 @@ const team = [
     projects: [PROJECT_ID.defiLlama],
   },
   {
-    id: "strobie",
-    name: "Strobie",
-    role: "Dev",
-    img: "/assets/team/strobie.jpg",
-    twitter: "https://x.com/0xstrobe",
-    projects: [PROJECT_ID.defiLlama],
-  },
-  {
-    id: "0xgnek",
-    name: "0xgnek",
-    role: "Dev",
-    img: "/assets/team/0xgnek.jpg",
-    twitter: "https://x.com/0xgnek",
-    github: "https://github.com/dtmkeng",
-    telegram: "https://t.me/Oxgnek",
-    projects: [PROJECT_ID.defiLlama],
-  },
-  {
     id: "vomics",
     name: "Vomics",
     role: "Chief Artist",
@@ -142,16 +124,6 @@ const team = [
   },
 
   // LLAMANODES
-  {
-    id: "breno",
-    name: "Breno",
-    role: "Dev",
-    img: "/assets/team/breno.jpg",
-    twitter: "https://x.com/brenopolanski",
-    github: "https://github.com/brenopolanski",
-    telegram: "https://t.me/brenopolanski",
-    projects: [PROJECT_ID.llamaFolio, PROJECT_ID.llamaNodes],
-  },
   {
     id: "peluche",
     name: "0xPeluche",
@@ -298,6 +270,31 @@ const team = [
     img: "/assets/team/tim.jpg",
     twitter: "https://x.com/TimInCrypto",
     telegram: "https://t.me/TimInCrypto",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "mintdart",
+    name: "mintdart",
+    role: "Dev",
+    img: "/assets/team/mintdart.jpg",
+    twitter: "https://x.com/mintdart",
+    projects: [PROJECT_ID.defiLlama, PROJECT_ID.llamaPay],
+  },
+  {
+    id: "bentura",
+    name: "bentura",
+    role: "Dev",
+    img: "/assets/team/bentura.jpg",
+    twitter: "https://x.com/Define101",
+    telegram: "https://t.me/definegostoso",
+    projects: [PROJECT_ID.defiLlama],
+  },
+  {
+    id: "joanna",
+    name: "Joanna",
+    role: "Regulation Correspondent",
+    img: "/assets/team/joanna.png",
+    twitter: "https://x.com/Joanna_Focus",
     projects: [PROJECT_ID.dlNews],
   },
   {
