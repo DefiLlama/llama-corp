@@ -7,14 +7,16 @@ import careers from "../data/careers";
 import team from "../data/team";
 import { PageWrapper } from "../components/layout";
 
+
 export default function HomePage() {
   return (
     <>
       <PageWrapper>
         <section id="projects">
-          <h3 className="project-title">Projects</h3>
+          {/* <h3 className="project-title">Projects</h3> */}
 
           <Projects items={projects} />
+          
         </section>
 
         {careers.length > 0 && (
@@ -27,7 +29,7 @@ export default function HomePage() {
 
         {team.length > 0 && (
           <section id="team">
-            <h3>Team</h3>
+            
 
             <Team items={team} />
           </section>

@@ -6,6 +6,7 @@ import ArrowLink from "./arrowLink";
 function Card({ title, description, logo, href }) {
   return (
     <>
+
       <div className="container">
         <Link href={href}>
           <a target="_blank">
@@ -53,13 +54,20 @@ function Card({ title, description, logo, href }) {
 
         @media (min-width: 768px) {
           .container {
-            width: 334px;
+            width: 280px;
           }
 
           .header {
             padding: 20px 30px;
           }
         }
+
+        @media (min-width: 1024px) {
+              .container {
+               width: 334px;
+          }
+        }
+
       `}</style>
     </>
   );
@@ -68,7 +76,8 @@ function Card({ title, description, logo, href }) {
 export default function Projects({ items }) {
   return (
     <>
-      <div className="container">
+      <h3 className="md:ml-6 mb-4 mt-5 text-[1.5rem]">Projects</h3>
+      <div className="container ">
         <div className="grid">
           {items.map((project, idx) => (
             <div key={`ProjectCard__${idx}`} className={`project-${idx % 4}`}>
@@ -87,6 +96,7 @@ export default function Projects({ items }) {
         .grid {
           display: grid;
           grid-gap: 20px;
+          margin-bottom: 2rem;
         }
 
         .project-0 {
@@ -108,6 +118,7 @@ export default function Projects({ items }) {
         @media (min-width: 768px) {
           .grid {
             display: grid;
+            margin-bottom: 6rem;
             grid-template-columns: repeat(2, 1fr);
           }
 
