@@ -1,6 +1,22 @@
 import { PROJECT_ID } from "./projects";
 
+/**
+ * @typedef {Object} TeamMember
+ * @property {string} id - The unique identifier for the team member.
+ * @property {string} name - The name of the team member.
+ * @property {string} role - The role of the team member.
+ * @property {string} img - The image URL of the team member.
+ * @property {string} [twitter] - The Twitter profile URL of the team member.
+ * @property {string} [github] - The GitHub profile URL of the team member.
+ * @property {string} [telegram] - The Telegram profile URL of the team member.
+ * @property {Array<string>} projects - The list of project IDs the team member is associated with.
+ */
+
+/**
+ * @type {Array<TeamMember>}
+ */
 const team = [
+  // FOUNDERS
   {
     id: "0xngmi",
     name: "0xngmi",
@@ -34,38 +50,25 @@ const team = [
     github: "https://github.com/iamdefinitelyahuman",
     projects: [PROJECT_ID.llamaFolio, PROJECT_ID.llamaNodes, PROJECT_ID.dlNews],
   },
+
+  // DEFILLAMA
   {
-    id: "paige",
-    name: "Paige",
-    role: "Director",
-    img: "/assets/team/paige.jpg",
-    twitter: "https://x.com/paigeaarhus",
-    telegram: "https://t.me/paaaaaaaige",
-    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
+    id: "shaman",
+    name: "Shaman",
+    role: "Team Lead",
+    img: "/assets/team/shaman.jpg",
+    twitter: "https://x.com/realdealshaman",
+    github: "https://github.com/realdealshaman",
+    telegram: "https://t.me/LlamaFacts",
+    projects: [PROJECT_ID.defiLlama],
   },
   {
-    id: "roosa",
-    name: "Roosa",
-    role: "Managing Director",
-    img: "/assets/team/roosa.jpg",
-    telegram: "https://t.me/rooooooosa",
-    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
-  },
-  {
-    id: "trista",
-    name: "Trista",
-    role: "Editor in Chief",
-    img: "/assets/team/trista.jpg",
-    twitter: "https://x.com/trista_kelley",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "yana",
-    name: "Yana",
-    role: "Head of Business Development",
-    img: "/assets/team/yana.jpeg",
-    telegram: "https://t.me/yanadenk",
-    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
+    id: "mintdart",
+    name: "mintdart",
+    role: "Dev",
+    img: "/assets/team/mintdart.jpg",
+    twitter: "https://x.com/mintdart",
+    projects: [PROJECT_ID.defiLlama, PROJECT_ID.llamaPay],
   },
   {
     id: "vrotend",
@@ -75,16 +78,6 @@ const team = [
     twitter: "https://x.com/basedcoiner",
     github: "https://github.com/vrtnd",
     telegram: "https://t.me/vrotendd",
-    projects: [PROJECT_ID.defiLlama],
-  },
-  {
-    id: "shaman",
-    name: "Shaman",
-    role: "Team Lead",
-    img: "/assets/team/shaman.jpg",
-    twitter: "https://x.com/realdealshaman",
-    github: "https://github.com/realdealshaman",
-    telegram: "https://t.me/LlamaFacts",
     projects: [PROJECT_ID.defiLlama],
   },
   {
@@ -112,6 +105,26 @@ const team = [
     projects: [PROJECT_ID.defiLlama],
   },
   {
+    id: "llamaintern",
+    name: "LlamaIntern",
+    role: "Intern",
+    img: "/assets/team/llamaintern.jpg",
+    twitter: "https://x.com/llamaintern",
+    telegram: "https://t.me/llamaintern",
+    projects: [PROJECT_ID.defiLlama],
+  },
+  {
+    id: "bentura",
+    name: "bentura",
+    role: "Intern",
+    img: "/assets/team/bentura.jpg",
+    twitter: "https://x.com/Define101",
+    telegram: "https://t.me/definegostoso",
+    projects: [PROJECT_ID.defiLlama],
+  },
+
+  // LLAMAFOLIO
+  {
     id: "peluche",
     name: "0xPeluche",
     role: "Dev",
@@ -120,6 +133,8 @@ const team = [
     telegram: "https://t.me/Oxpeluche",
     projects: [PROJECT_ID.llamaFolio],
   },
+
+  // LLAMANODES
   {
     id: "bryan",
     name: "Bryan",
@@ -156,12 +171,99 @@ const team = [
     telegram: "https://t.me/Ono2024",
     projects: [PROJECT_ID.llamaNodes],
   },
+
+  // DLNEWS - DLRESEARCH
+  {
+    id: "paige",
+    name: "Paige",
+    role: "Director",
+    img: "/assets/team/paige.jpg",
+    twitter: "https://x.com/paigeaarhus",
+    telegram: "https://t.me/paaaaaaaige",
+    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
+  },
+  {
+    id: "roosa",
+    name: "Roosa",
+    role: "Managing Director",
+    img: "/assets/team/roosa.jpg",
+    telegram: "https://t.me/rooooooosa",
+    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
+  },
   {
     id: "ekin",
     name: "Ekin",
-    role: "Managing Editor",
+    role: "Editor-in-Chief",
     img: "/assets/team/ekin.jpg",
     twitter: "https://x.com/eking0x",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "eric",
+    name: "Eric",
+    role: "Interim Managing Editor",
+    img: "/assets/team/eric.png",
+    projects: [PROJECT_ID.dlNews],
+    twitter: 'https://x.com/EricJohanssonLJ',
+    telegram: "https://t.me/EricJohanssonLJ",
+  },
+  {
+    id: "yana",
+    name: "Yana",
+    role: "Head of Business Development",
+    img: "/assets/team/yana.jpeg",
+    telegram: "https://t.me/yanadenk",
+    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
+  },
+  {
+    id: "ryan",
+    name: "Ryan",
+    role: "Head of Research",
+    img: "/assets/team/ryan-celaj.jpeg",
+    telegram: "https://t.me/Cryptodurs",
+    twitter: "https://x.com/rcel1559",
+    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
+  },
+  {
+    id: "sharmaine",
+    name: "Sharmaine",
+    role: "Head of Human Resources",
+    img: "/assets/team/sharmaine.jpg",
+    telegram: "https://t.me/sharmcorpus",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "bruna",
+    name: "Bruna",
+    role: "Product Manager - IT",
+    img: "/assets/team/bruna.png",
+    projects: [PROJECT_ID.dlNews],
+    twitter: "https://x.com/BrunaLe17745500",
+    telegram: "https://t.me/buu_leao"
+  },
+  {
+    id: "abhinav",
+    name: "Abhinav",
+    role: "Product Manager - Consumer Products",
+    img: "/assets/team/abhinav.jpeg",
+    telegram: "https://t.me/abhinavrattan",
+    twitter: "https://x.com/abhirattan15",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "ajisad",
+    name: "Ajisad",
+    role: "Accountant",
+    img: "/assets/team/ajisad.jpeg",
+    projects: [PROJECT_ID.dlNews],
+    telegram: "https://t.me/Aj_ashf",
+  },
+  {
+    id: "kyle",
+    name: "Kyle",
+    role: "Weekend Editor",
+    img: "/assets/team/kyle.jpg",
+    twitter: "https://x.com/CryptoBizzle",
     projects: [PROJECT_ID.dlNews],
   },
   {
@@ -191,71 +293,11 @@ const team = [
     projects: [PROJECT_ID.defiLlama],
   },
   {
-    id: "joanna",
-    name: "Joanna",
-    role: "Regulation Correspondent",
-    img: "/assets/team/joanna.png",
-    twitter: "https://x.com/Joanna_Focus",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
     id: "aleks",
     name: "Aleks",
     role: "DeFi Correspondent",
     img: "/assets/team/aleks.jpeg",
     twitter: "https://x.com/aleks_gilbert",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "eric",
-    name: "Eric",
-    role: "News Editor",
-    img: "/assets/team/eric.png",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "sharmaine",
-    name: "Sharmaine",
-    role: "Head of Human Resources",
-    img: "/assets/team/sharmaine.jpg",
-    telegram: "https://t.me/sharmcorpus",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "ajisad",
-    name: "Ajisad",
-    role: "Accountant",
-    img: "/assets/team/ajisad.jpeg",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "bruna",
-    name: "Bruna",
-    role: "Product Manager - IT",
-    img: "/assets/team/bruna.png",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "rodrigo",
-    name: "Rodrigo",
-    role: "Senior Full Stack Engineer",
-    img: "/assets/team/rodrigo.png",
-    github: "https://github.com/rod0x",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "andres",
-    name: "Andrés",
-    role: "Senior Designer",
-    img: "/assets/team/andres.png",
-    projects: [PROJECT_ID.dlNews],
-  },
-  {
-    id: "edward",
-    name: "Edward",
-    role: "Story Editor",
-    img: "/assets/team/edward.jpg",
-    twitter: "https://x.com/EddieRob235",
     projects: [PROJECT_ID.dlNews],
   },
   {
@@ -271,16 +313,42 @@ const team = [
     name: "Liam",
     role: "DeFi Correspondent",
     img: "/assets/team/liam.jpeg",
+    telegram: "https://t.me/liam_gallas",
     twitter: "https://x.com/liam_gallas",
     projects: [PROJECT_ID.dlNews],
   },
   {
-    id: "abhinav",
-    name: "Abhinav",
-    role: "Product Manager - Data",
-    img: "/assets/team/abhinav.jpeg",
-    twitter: "https://x.com/abhirattan15",
+    id: "pedro",
+    name: "Pedro",
+    role: "Markets Correspondent",
+    img: "/assets/team/pedro.jpg",
     projects: [PROJECT_ID.dlNews],
+    twitter: 'https://x.com/elpedrosolimano',
+    telegram: "https://t.me/elpedrosolimano",
+  },
+  // {
+  //   id: "lance",
+  //   name: "Lance",
+  //   role: "Markets Correspondent",
+  //   img: "/assets/team/lance.jpg",
+  //   projects: [PROJECT_ID.dlNews],
+  //   telegram: "https://t.me/xmesmer",
+  // },
+  {
+    id: "rodrigo",
+    name: "Rodrigo",
+    role: "Senior Full Stack Engineer",
+    img: "/assets/team/rodrigo.png",
+    github: "https://github.com/rod0x",
+    projects: [PROJECT_ID.dlNews],
+  },
+  {
+    id: "andres",
+    name: "Andrés",
+    role: "Senior Designer",
+    img: "/assets/team/andres.png",
+    projects: [PROJECT_ID.dlNews],
+    telegram: "https://t.me/AATIAPRSEND",
   },
   {
     id: "omar",
@@ -291,20 +359,12 @@ const team = [
     projects: [PROJECT_ID.dlNews],
   },
   {
-    id: "ryan",
-    name: "Ryan",
-    role: "Head of Research",
-    img: "/assets/team/ryan-celaj.jpeg",
-    twitter: "https://x.com/rcel1559",
-    projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
-  },
-  {
-    id: "ben-weiss",
-    name: "Ben Weiss",
-    role: "Dubai Correspondent",
-    img: "/assets/team/ben-weiss.jpeg",
-    twitter: "https://x.com/bdanweiss",
+    id: "gwen",
+    name: "Gwen",
+    role: "Graphic Designer",
+    img: "/assets/team/gwen.jpg",
     projects: [PROJECT_ID.dlNews],
+    telegram: "https://t.me/gwenptq"
   },
   {
     id: "jormpt",
@@ -316,20 +376,63 @@ const team = [
     projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
   },
   {
-    id: "larry",
-    name: "Larry",
-    role: "US Editor",
-    img: "/assets/team/larry.jpg",
-    projects: [PROJECT_ID.dlNews],
+    id: "stan",
+    name: "Stan",
+    role: "Research Analyst",
+    img: "/assets/team/stan.jpg",
+    projects: [PROJECT_ID.dlResearch],
+    twitter: 'https://x.com/stan3web',
+    telegram: "https://t.me/stan3web",
   },
-  {
-    id: "kyle",
-    name: "Kyle",
-    role: "Weekend Editor",
-    img: "/assets/team/kyle.jpg",
-    twitter: "https://x.com/CryptoBizzle",
-    projects: [PROJECT_ID.dlNews],
-  },
+  // {
+  //   id: "sebastien",
+  //   name: "Sébastien",
+  //   role: "Research Analyst",
+  //   img: "/assets/team/sebastien.jpg",
+  //   projects: [PROJECT_ID.dlResearch],
+  //   twitter: 'https://x.com/Sebateau22',
+  // },
+
+  // REMOVED
+  // {
+  //   id: "trista",
+  //   name: "Trista",
+  //   role: "Editor in Chief",
+  //   img: "/assets/team/trista.jpg",
+  //   twitter: "https://x.com/trista_kelley",
+  //   projects: [PROJECT_ID.dlNews],
+  // },
+  // {
+  //   id: "larry",
+  //   name: "Larry",
+  //   role: "US Editor",
+  //   img: "/assets/team/larry.jpg",
+  //   projects: [PROJECT_ID.dlNews],
+  // },
+  // {
+  //   id: "ben-weiss",
+  //   name: "Ben Weiss",
+  //   role: "Dubai Correspondent",
+  //   img: "/assets/team/ben-weiss.jpeg",
+  //   twitter: "https://x.com/bdanweiss",
+  //   projects: [PROJECT_ID.dlNews],
+  // },
+  // {
+  //   id: "edward",
+  //   name: "Edward",
+  //   role: "Story Editor",
+  //   img: "/assets/team/edward.jpg",
+  //   twitter: "https://x.com/EddieRob235",
+  //   projects: [PROJECT_ID.dlNews],
+  // },
+  // {
+  //   id: "joanna",
+  //   name: "Joanna",
+  //   role: "Regulation Correspondent",
+  //   img: "/assets/team/joanna.png",
+  //   twitter: "https://x.com/Joanna_Focus",
+  //   projects: [PROJECT_ID.dlNews],
+  // },
 ];
 
 export default team;
