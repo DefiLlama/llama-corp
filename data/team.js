@@ -50,6 +50,18 @@ const team = [
     github: "https://github.com/iamdefinitelyahuman",
     projects: [PROJECT_ID.llamaFolio, PROJECT_ID.llamaNodes, PROJECT_ID.dlNews],
   },
+
+  // DEFILLAMA
+  {
+    id: "shaman",
+    name: "Shaman",
+    role: "Team Lead",
+    img: "/assets/team/shaman.jpg",
+    twitter: "https://x.com/realdealshaman",
+    github: "https://github.com/realdealshaman",
+    telegram: "https://t.me/LlamaFacts",
+    projects: [PROJECT_ID.defiLlama],
+  },
   {
     id: "mintdart",
     name: "mintdart",
@@ -59,26 +71,6 @@ const team = [
     projects: [PROJECT_ID.defiLlama, PROJECT_ID.llamaPay],
   },
   {
-    id: "llamaintern",
-    name: "LlamaIntern",
-    role: "Intern",
-    img: "/assets/team/llamaintern.jpg",
-    twitter: "https://x.com/llamaintern",
-    telegram: "https://t.me/llamaintern",
-    projects: [PROJECT_ID.defiLlama],
-  },
-  {
-    id: "bentura",
-    name: "bentura",
-    role: "Intern",
-    img: "/assets/team/bentura.jpg",
-    twitter: "https://x.com/Define101",
-    telegram: "https://t.me/definegostoso",
-    projects: [PROJECT_ID.defiLlama],
-  },
-
-  // DEFILLAMA
-  {
     id: "vrotend",
     name: "vrotend",
     role: "Dev",
@@ -86,16 +78,6 @@ const team = [
     twitter: "https://x.com/basedcoiner",
     github: "https://github.com/vrtnd",
     telegram: "https://t.me/vrotendd",
-    projects: [PROJECT_ID.defiLlama],
-  },
-  {
-    id: "shaman",
-    name: "Shaman",
-    role: "Team Lead",
-    img: "/assets/team/shaman.jpg",
-    twitter: "https://x.com/realdealshaman",
-    github: "https://github.com/realdealshaman",
-    telegram: "https://t.me/LlamaFacts",
     projects: [PROJECT_ID.defiLlama],
   },
   {
@@ -122,8 +104,26 @@ const team = [
     twitter: "https://x.com/vomics_sol",
     projects: [PROJECT_ID.defiLlama],
   },
+  {
+    id: "llamaintern",
+    name: "LlamaIntern",
+    role: "Intern",
+    img: "/assets/team/llamaintern.jpg",
+    twitter: "https://x.com/llamaintern",
+    telegram: "https://t.me/llamaintern",
+    projects: [PROJECT_ID.defiLlama],
+  },
+  {
+    id: "bentura",
+    name: "bentura",
+    role: "Intern",
+    img: "/assets/team/bentura.jpg",
+    twitter: "https://x.com/Define101",
+    telegram: "https://t.me/definegostoso",
+    projects: [PROJECT_ID.defiLlama],
+  },
 
-  // LLAMANODES
+  // LLAMAFOLIO
   {
     id: "peluche",
     name: "0xPeluche",
@@ -133,6 +133,8 @@ const team = [
     telegram: "https://t.me/Oxpeluche",
     projects: [PROJECT_ID.llamaFolio],
   },
+
+  // LLAMANODES
   {
     id: "bryan",
     name: "Bryan",
@@ -288,14 +290,6 @@ const team = [
     twitter: "https://x.com/Define101",
     telegram: "https://t.me/definegostoso",
     projects: [PROJECT_ID.defiLlama],
-  },
-  {
-    id: "joanna",
-    name: "Joanna",
-    role: "Regulation Correspondent",
-    img: "/assets/team/joanna.png",
-    twitter: "https://x.com/Joanna_Focus",
-    projects: [PROJECT_ID.dlNews],
   },
   {
     id: "aleks",
