@@ -246,6 +246,7 @@ const team = [
     name: "Ryan",
     role: "Head of Research",
     img: "/assets/team/ryan-celaj.jpeg",
+    telegram: "https://t.me/Cryptodurs",
     twitter: "https://x.com/rcel1559",
     projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
   },
