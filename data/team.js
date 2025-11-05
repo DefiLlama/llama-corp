@@ -201,7 +201,7 @@ const team = [
   {
     id: "eric",
     name: "Eric",
-    role: "Interim Managing Editor",
+    role: "Managing Editor",
     img: "/assets/team/eric.png",
     projects: [PROJECT_ID.dlNews],
     twitter: 'https://x.com/EricJohanssonLJ',
@@ -210,7 +210,7 @@ const team = [
   {
     id: "yana",
     name: "Yana",
-    role: "Head of Business Development",
+    role: "Chief Marketing Officer",
     img: "/assets/team/yana.jpeg",
     telegram: "https://t.me/yanadenk",
     projects: [PROJECT_ID.dlNews, PROJECT_ID.dlResearch],
@@ -258,13 +258,22 @@ const team = [
     projects: [PROJECT_ID.dlNews],
     telegram: "https://t.me/Aj_ashf",
   },
+  // {
+  //   id: "kyle",
+  //   name: "Kyle",
+  //   role: "Weekend Editor",
+  //   img: "/assets/team/kyle.jpg",
+  //   twitter: "https://x.com/CryptoBizzle",
+  //   projects: [PROJECT_ID.dlNews],
+  // },
   {
-    id: "kyle",
-    name: "Kyle",
-    role: "Weekend Editor",
-    img: "/assets/team/kyle.jpg",
-    twitter: "https://x.com/CryptoBizzle",
-    projects: [PROJECT_ID.dlNews],
+    id: "Sean-Butterfield",
+    name: "Sean Butterfield",
+    role: "Strategy & Business Development Lead",
+    img: "/assets/team/Sean-Butterfield.png",
+    projects: [PROJECT_ID.dlResearch],
+    telegram: "https://t.me/seanbutta",
+    twitter: "https://x.com/seanButta",
   },
   {
     id: "tim",
@@ -326,14 +335,15 @@ const team = [
     twitter: 'https://x.com/elpedrosolimano',
     telegram: "https://t.me/elpedrosolimano",
   },
-  // {
-  //   id: "lance",
-  //   name: "Lance",
-  //   role: "Markets Correspondent",
-  //   img: "/assets/team/lance.jpg",
-  //   projects: [PROJECT_ID.dlNews],
-  //   telegram: "https://t.me/xmesmer",
-  // },
+  {
+    id: "Lance-Datskoluo",
+    name: "Lance Datskoluo",
+    role: "Markets Correspondent",
+    img: "/assets/team/Lance-Datskoluo.jpg",
+    projects: [PROJECT_ID.dlNews],
+    telegram: "https://t.me/lancedlnews",
+    twitter: "https://x.com/lancedlnews",
+  },
   {
     id: "rodrigo",
     name: "Rodrigo",
@@ -384,14 +394,14 @@ const team = [
     twitter: 'https://x.com/stan3web',
     telegram: "https://t.me/stan3web",
   },
-  // {
-  //   id: "sebastien",
-  //   name: "Sébastien",
-  //   role: "Research Analyst",
-  //   img: "/assets/team/sebastien.jpg",
-  //   projects: [PROJECT_ID.dlResearch],
-  //   twitter: 'https://x.com/Sebateau22',
-  // },
+  {
+    id: "Sébastien-Nave",
+    name: "Sébastien Nave",
+    role: "Research Analyst",
+    img: "/assets/team/Sébastien-Nave.png",
+    projects: [PROJECT_ID.dlResearch],
+    twitter: 'https://x.com/Sebateau22',
+  },
 
   // REMOVED
   // {
