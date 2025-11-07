@@ -268,7 +268,7 @@ const team = [
   // },
   {
     id: "Sean-Butterfield",
-    name: "Sean Butterfield",
+    name: "Sean",
     role: "Strategy & Business Development Lead",
     img: "/assets/team/Sean-Butterfield.png",
     projects: [PROJECT_ID.dlResearch],
@@ -337,7 +337,7 @@ const team = [
   },
   {
     id: "Lance-Datskoluo",
-    name: "Lance Datskoluo",
+    name: "Lance",
     role: "Markets Correspondent",
     img: "/assets/team/Lance-Datskoluo.jpg",
     projects: [PROJECT_ID.dlNews],
@@ -396,7 +396,7 @@ const team = [
   },
   {
     id: "Sébastien-Nave",
-    name: "Sébastien Nave",
+    name: "Sébastien",
     role: "Research Analyst",
     img: "/assets/team/Sébastien-Nave.png",
     projects: [PROJECT_ID.dlResearch],
