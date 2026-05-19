@@ -40,9 +40,9 @@ function Card({ name, role, img, twitter, github, telegram, projects }) {
             <p className="role">{role}</p>
 
             <div className="row">
-              {_projects.map(({ id, title }) => (
+              {_projects.map(({ id, title, tagTitle }) => (
                 <div className="pill" key={`project__${id}`}>
-                  {title}
+                  {tagTitle || title}
                 </div>
               ))}
             </div>
@@ -150,6 +150,8 @@ export default function Team({ items }) {
   }
 
   const allSelectedIds = Array.from(selectedIds);
+  const tagIds = new Set(items.flatMap((item) => item.projects));
+  const tagProjects = projects.filter((project) => tagIds.has(project.id));
 
   const team = items.filter(
     (item) =>
@@ -160,13 +162,13 @@ export default function Team({ items }) {
   return (
     <>
       <div className="row">
-        {projects.map(({ id, title }) => (
+        {tagProjects.map(({ id, title, tagTitle }) => (
           <div
             className={`pill ${selectedIds.has(id) ? "selected" : ""}`}
             key={`select_project__${id}`}
             onClick={() => selectProject(id)}
           >
-            {title}
+            {tagTitle || title}
           </div>
         ))}
       </div>

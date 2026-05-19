@@ -48,6 +48,7 @@ const projects = [
   {
     id: PROJECT_ID.dlResearch,
     title: "DLResearch",
+    tagTitle: "Research",
     description:
       "DL Research provides in-depth research reports, intelligence and custom content to take your brand to the next level.",
     logo: {
