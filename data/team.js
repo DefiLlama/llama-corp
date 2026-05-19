@@ -511,7 +511,7 @@ const team = [
     role: "Research Analyst",
     img: "/assets/team/sebastien-nave.png",
     projects: [PROJECT_ID.dlResearch, PROJECT_ID.defiLlama],
-    twitter: 'https://x.com/Sebateau22',
+    twitter: 'https://x.com/seb22n',
   },
 
   // REMOVED
