@@ -197,6 +197,7 @@ const team = [
     telegram: "https://t.me/kenny_jetski",
     projects: [PROJECT_ID.defiLlama],
   },
+  /*
   {
     id: "matt",
     name: "Matt",
@@ -206,6 +207,7 @@ const team = [
     telegram: "https://t.me/matt_dennis",
     projects: [PROJECT_ID.defiLlama],
   },
+  */
   {
     id: "tree",
     name: "Tree",
@@ -292,6 +294,7 @@ const team = [
     twitter: "https://x.com/BrunaLe17745500",
     telegram: "https://t.me/buu_leao"
   },
+  /*
   {
     id: "rodrigo",
     name: "Rodrigo",
@@ -308,6 +311,7 @@ const team = [
     projects: [PROJECT_ID.defiLlama],
     telegram: "https://t.me/AATIAPRSEND",
   },
+  */
   {
     id: "jormpt",
     name: "Jormpt",
