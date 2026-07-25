@@ -67,3 +67,7 @@ h3 {
     font-size: 1.5rem;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

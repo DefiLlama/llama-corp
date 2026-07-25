@@ -11,8 +11,8 @@ export default function Contact() {
         </p>
 
         <Link href="mailto: contact@llama-corp.com">
-          <a>
-            <p className="email">
+          <a  >
+            <p className="email mt-4">
               email us
               <span>
                 <ArrowRight width={18} height={14} />
@@ -38,7 +38,7 @@ export default function Contact() {
 
         .email {
           padding: 20px;
-          width: 300px;
+          width: 260px;
           display: flex;
           flex-direction: row;
           align-items: center;
@@ -56,9 +56,13 @@ export default function Contact() {
           margin: 4px 0 0 6px;
         }
 
+
+
+
         @media (min-width: 768px) {
           .container {
             position: relative;
+            
           }
 
           .description {
@@ -69,9 +73,18 @@ export default function Contact() {
           .email {
             position: absolute;
             top: 10px;
+            width: 260px;
             left: calc(70% - 40px);
           }
         }
+
+ @media (min-width: 1024px) {
+            .email {
+            width: 300px;
+          
+          }
+        }
+
       `}</style>
     </>
   );
