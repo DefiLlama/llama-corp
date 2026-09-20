@@ -4,7 +4,6 @@ import { Logo, Discord, Twitter, Telegram, Github } from "./icons";
 const mediaLinks = [
   { Icon: Twitter, href: "https://twitter.com/LlamaCorpOrg" },
   { Icon: Telegram, href: "https://t.me/defillama_tg" },
-  { Icon: Discord, href: "https://discord.gg/buPFYXzDDd" },
   { Icon: Github, href: "https://github.com/DefiLlama" },
 ];
 
