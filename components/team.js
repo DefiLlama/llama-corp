@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import imageLoader from "./imageLoader";
 import projects, { projectById } from "../data/projects";
 import { Twitter, Telegram, Github } from "./icons";
 
@@ -31,7 +32,7 @@ function Card({ name, role, img, twitter, github, telegram, projects }) {
     <>
       <div className="container">
         <div className="img-container">
-          <Image alt={name} src={img} layout="fill" objectFit="cover" />
+          <Image loader={imageLoader} alt={name} src={img} layout="fill" objectFit="cover" />
         </div>
 
         <div className="col">

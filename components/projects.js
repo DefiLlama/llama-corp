@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import imageLoader from "./imageLoader";
 import ArrowLink from "./arrowLink";
 
 function Card({ title, description, logo, href }) {
@@ -10,7 +11,7 @@ function Card({ title, description, logo, href }) {
         <Link href={href}>
           <a target="_blank">
             <div className="header">
-              <Image alt={`${title} logo`} {...logo} />
+              <Image loader={imageLoader} alt={`${title} logo`} {...logo} />
             </div>
           </a>
         </Link>

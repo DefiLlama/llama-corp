@@ -13,7 +13,7 @@ export default function JobPage({ title, description, content }) {
 export async function getStaticPaths() {
   const paths = careers.map((e) => ({ params: { slug: e.slug } }));
 
-  return { paths, fallback: "blocking" };
+  return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }) {
