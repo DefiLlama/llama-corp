@@ -32,9 +32,7 @@ const team = [
     name: "Charlie",
     role: "Co-founder",
     img: "/assets/team/charlie.jpg",
-    twitter: "https://x.com/0xLlam4",
     github: "https://github.com/charlie-eth",
-    telegram: "https://t.me/0xLlam4",
     projects: [PROJECT_ID.defiLlama],
   },
   {
